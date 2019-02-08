@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Deja un comentario</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="w-100">&nbsp;</div>
+
+                <div class="col-md-3">
+                    <div class="list-group">
+                        <button type="button" class="list-group-item list-group-item-action active">
+                            Cras justo odio
+                        </button>
+                        <button type="button" class="list-group-item list-group-item-action">Dapibus ac facilisis in</button>
+                        <button type="button" class="list-group-item list-group-item-action">Morbi leo risus</button>
+                        <button type="button" class="list-group-item list-group-item-action">Porta ac consectetur ac</button>
+                    </div>
+                </div>
+
+                <div class="col-md-5">
+                    <div class="card">
+                        <img src="img/profile.jpg" class="img-responsive"  alt="Profile image" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">Hola, <span>soy Franco.!</span></h3>
+                            <h4>Desarrollador web</h4>    
+                        </div>
+                        <hr/>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati fugiat incidunt sit ad ipsa error molestiae illo ea recusandae, cupiditate iure temporibus ipsum veniam quis ab debitis illum placeat dicta.
+                        </p>
+                        <a href="#" class="btn btn-primary btn-block">Visita mi sitio</a>
+                        <div class="social-network-wrapper">
+                            <a href="https://www.github.com" target="_blank">
+                                <div class="social-icon github"></div>
+                            </a>
+
+                            <a href="https://www.twitter.com" target="_blank">
+                                <div class="social-icon twitter"></div>
+                            </a>
+                            <a href="https://www.instagram.com" target="_blank">
+                                <div class="social-icon instagram"></div>
+                            </a>
+                            <a href="https://www.spotify.com" target="_blank">
+                                <div class="social-icon spotify"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col col-md-4">
+                    <div class="wrapper-comment">
+                        <div class="comment-title">
+                            <h1>Deja un comentario</h1>
+                        </div>
+                        <div class="comment-form">
+                            <form action="" id="comment-form">
+                            <div class="form-group">
+                                <input id="name" type="text" class="form-control" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                                <input id="mail" type="text" class="form-control" placeholder="name@example.com">
+                            </div>
+                            <div class="form-group">
+                                <textarea id="comment" class="form-control"  rows="5"></textarea>
+                            </div>
+                            <div id="submit-button"  class="btn btn-success mb-2">Agregar</div>
+                        </form>
+                        </div>
+                    </div>
+                
+                    <div class="wrapper-list">
+                        <div class="list-title">
+                            <h2>Comentarios</h2>
+                        </div>
+                        <div class="list-group">
+                            <div id="list-comment" class="list-comment">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
