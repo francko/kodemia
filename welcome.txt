@@ -1,0 +1,4 @@
+Kodemia - Bootcamp - Telmexhub
+El objetivo de estas actividades van enfocadas a conocer el entorno Front End developer y
+aprenderán a construir su web personal con herramientas de programación como HTML5, CSS3,
+Bootstrap4, Javascript y GIT en nivel básico.
